@@ -4,5 +4,5 @@ A number of 64Mb (8MB) [**AP Memory Technology APS6404L-3SQN QSPI PSRAM**](https
 <p align="left">
 <img src="images/AP-psram7.jpg" width="200" />  
 <img src="images/AP-psram8.jpg" width="550" /> 
-<img src="images/Teensy41-psram1.jpg" width="550" />  
+<img src="images/Teensy41-psram1.jpg" width="750" />  
 <br>
