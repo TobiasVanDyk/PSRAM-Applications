@@ -32,7 +32,7 @@ As a third test the PSRAM connected to the bottom of the Teensy 4.1 was tested a
   
 As this third approach worked very well, with no distortion and capable of exceptionally long delays, it will be investigated further.
 
-External PSRAM 8-pin DIP module and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B 
+Picture 1. Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B.
   
 <p align="left">
 <img src="images/setup-teensy41-audio3.jpg" width="550" />  
