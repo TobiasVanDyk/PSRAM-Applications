@@ -1,5 +1,7 @@
 # PSRAM-Applications
-A number of 64Mb (8MB) [**AP Memory Technology APS6404L-3SQN QSPI PSRAM**](https://www.mouser.com/ProductDetail/AP-Memory/APS6404L-3SQN-SN?qs=IS%252B4QmGtzzqCot9%252BeIJwKw%3D%3D) had been obtained from [**Mouser (Texas)**](https://www.mouser.com/), and are being tested through their single and quad SPI memory interface modes, for the latter using the RP2040 Pico (for which there is potential r/w QSPI support), and the established QSPI support for the Teensy 4.1 and ESP32's. The comments below should be regarded as a work-in-progress, it is unfinished and documents daily experiments. In addition the copyright of the various code sections belong to their owners as identified by the links provided. Specifically, all Teensy libraries are the property of pjrc.com.
+A number of 64Mb (8MB) [**AP Memory Technology APS6404L-3SQN QSPI PSRAM**](https://www.mouser.com/ProductDetail/AP-Memory/APS6404L-3SQN-SN?qs=IS%252B4QmGtzzqCot9%252BeIJwKw%3D%3D) had been obtained from [**Mouser (Texas)**](https://www.mouser.com/), and are being tested through their single and quad SPI memory interface modes, for the latter using the RP2040 Pico (for which there is potential r/w QSPI support), and the established QSPI support for the Teensy 4.1 and ESP32's. 
+
+Note that the comments as below should be regarded as a work-in-progress, it is unfinished and documents daily experiments. In addition the copyright of the various code sections belong to their owners, as identified by the links provided. Specifically, all Teensy libraries are the property of pjrc.com.
 
 <p align="left">
 <img src="images/AP-psram7.jpg" width="164" />  
