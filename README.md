@@ -11,7 +11,7 @@ Note that the comments as below should be regarded as a work-in-progress, it is 
   
 The separate PSRAM 8-pin DIP module was connected to a Teensy 4.1 (with another PSRAM module soldered to its bottom), and connected to the standard Teensy Audio 3 board revision B as below:
   
-Table 1: Connections between PSRAM and Teensy 4.1: 
+Table 1: Connections between the external PSRAM module and a Teensy 4.1: 
 
 | PSRAM Pin   | Teensy 4.1 | 
 |:------------|:-----------|
@@ -31,6 +31,8 @@ As a second test the Teensy audio code changes as suggested [**here**](https://f
 As a third test the PSRAM connected to the bottom of the Teensy 4.1 was tested as an audio delay storage device as suggested here: [**Audio Effect Delay Pops & Clicks when changing tap times**](https://forum.pjrc.com/threads/62739-Audio-Effect-Delay-Pops-amp-Clicks-when-changing-tap-times).  The files used are available here as effect_tapedelay10tap.h, effect_tapedelay10tap.cpp, and tapedelay-example.ino.
   
 As this third approach worked very well, with no distortion and capable of exceptionally long delays, it will be investigated further.
+
+External PSRAM 8-pin DIP module and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B 
   
 <p align="left">
 <img src="images/setup-teensy41-audio3.jpg" width="550" />  
