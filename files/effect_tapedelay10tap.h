@@ -28,6 +28,8 @@
  * added delayfade to fade between old and new delay time PMF 04-09-2020
  */
 
+// Refer to: https://forum.pjrc.com/threads/62739-Audio-Effect-Delay-Pops-amp-Clicks-when-changing-tap-times
+
 #ifndef effect_tapedelay10tap_h_
 #define effect_tapedelay10tap_h_
 #include "Arduino.h"
