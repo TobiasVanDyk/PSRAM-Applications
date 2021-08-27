@@ -44,8 +44,6 @@ void setup() {
   delayExt1.delay(7, 320); //90 flange 200 to 300 reverb 800 to 2000 echo - more than 2000 then both channels stutter
 }
 
-elapsedMillis volmsec=0;
-
 void loop() {
 
 }
