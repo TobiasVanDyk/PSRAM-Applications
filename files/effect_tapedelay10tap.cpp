@@ -28,6 +28,9 @@
  * Modified for single samples delay line (rather than blocks) and tape delay like behaviour PMF 02-09-2020
  * added delayfade to fade between old and new delay time PMF 04-09-2020
  */
+
+// Refer to: https://forum.pjrc.com/threads/62739-Audio-Effect-Delay-Pops-amp-Clicks-when-changing-tap-times
+
 #include "effect_tapedelay10tap.h"
 
 #include <Arduino.h>
