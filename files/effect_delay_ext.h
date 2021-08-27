@@ -24,6 +24,8 @@
  * THE SOFTWARE.
  */
 
+// Refer to: https://forum.pjrc.com/threads/29276-Limits-of-delay-effect-in-audio-library/page5
+
 #ifndef effect_delay_ext_h_
 #define effect_delay_ext_h_
 #include "Arduino.h"
