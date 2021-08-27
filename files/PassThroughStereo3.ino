@@ -5,6 +5,8 @@
  * This example code is in the public domain.
  */
 
+// Refer to: https://forum.pjrc.com/threads/29276-Limits-of-delay-effect-in-audio-library/page5
+
 
 #include <Audio.h>
 #include <Wire.h>
