@@ -14,8 +14,8 @@
 
 // GUItool: begin automatically generated code
 AudioInputI2S            i2s1;           //xy=119,204
-//AudioEffectDelayExternal delayExt1(AUDIO_MEMORY_PSRAM_8MB, 250);      //xy=343,123
-AudioEffectDelayExternal delayExt1;      //xy=343,123
+AudioEffectDelayExternal delayExt1(AUDIO_MEMORY_PSRAM_8MB, 250);      //xy=343,123
+//AudioEffectDelayExternal delayExt1;      //xy=343,123
 AudioOutputI2S           i2s2;           //xy=655,199
 AudioConnection          patchCord1(i2s1, 0, delayExt1, 0);
 AudioConnection          patchCord2(i2s1, 1, i2s2, 1);
