@@ -28,5 +28,9 @@ As a second test the Teensy audio code changes as suggested [**here**](https://f
   
 As a third test the PSRAM connected to the bottom of the Teensy 4.1 was tested as an audio delay storage device as suggested here: [**Audio Effect Delay Pops & Clicks when changing tap times**](https://forum.pjrc.com/threads/62739-Audio-Effect-Delay-Pops-amp-Clicks-when-changing-tap-times).  The files used are also available here as effect_tapedelay10tap.h, effect_tapedelay10tap.cpp, and tapedelay-example.ino.
   
-As this third mapproach worked very well, with no distortion and capable of exceptionally long delays, it will be investigated further.
+As this third approach worked very well, with no distortion and capable of exceptionally long delays, it will be investigated further.
+  
+<p align="left">
+<img src="images/setup-teensy41-audio3.jpg" width="550" />  
+<br>
   
