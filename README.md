@@ -3,13 +3,15 @@ A number of 64Mb (8MB) [**AP Memory Technology APS6404L-3SQN QSPI PSRAM**](https
 
 Note that the comments as below should be regarded as a work-in-progress, it is unfinished and documents infrequent experiments. **In addition the copyright of the various code sections and code files, belong to their owners, as identified by the links provided. Specifically, all [Teensy libraries](https://www.pjrc.com/teensy/) are the property of pjrc.com.**
 
+Pictures 1 to 3. Two External PSRAM 8-pin DIP modules and a Teensy 4.1 with another PSRAM module soldered to its bottom.
+
 <p align="left">
 <img src="images/AP-psram7.jpg" width="164" />  
 <img src="images/AP-psram8.jpg" width="650" /> 
 <img src="images/Teensy41-psram1.jpg" width="817" />  
 <br>
   
-The separate PSRAM 8-pin DIP module was connected to a Teensy 4.1 (with another PSRAM module soldered to its bottom), and connected to the standard Teensy Audio 3 board revision B as below:
+An external PSRAM 8-pin DIP module was connected to a Teensy 4.1 (with another PSRAM module soldered to its bottom), which in turn, was connected to a Teensy Audio 3 board rev B as shown in picture 4 below:
   
 Table 1: Connections between the external PSRAM module and a Teensy 4.1: 
 
@@ -32,7 +34,7 @@ As a third test the PSRAM connected to the bottom of the Teensy 4.1 was tested a
   
 As this third approach worked very well, with no distortion and capable of exceptionally long delays, it will be investigated further.
 
-Picture 1. Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B.
+Picture 4. Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B.
   
 <p align="left">
 <img src="images/setup-teensy41-audio3.jpg" width="550" />  
