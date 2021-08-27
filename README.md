@@ -22,7 +22,7 @@ Table 1: Connections between PSRAM and Teensy 4.1:
 | 7           | 3v3        | 
 | 8           | 3v3        | 
   
-As an initial check the 8MB-PSRAM module was tested with the direct SPI read/write code from here: [**Problem with 23LC1024 RAM memory**](https://forum.pjrc.com/threads/36563-Problem-with-23LC1024-RAM-memory. (Also available here as 23LC1024a.ino)
+As an initial check the 8MB-PSRAM module was tested with the direct SPI read/write code from here: [**Problem with 23LC1024 RAM memory**](https://forum.pjrc.com/threads/36563-Problem-with-23LC1024-RAM-memory). (The files used is also available here as 23LC1024a.ino)
   
 As a second test the Teensy audio code changes as suggested [**here**](https://forum.pjrc.com/threads/29276-Limits-of-delay-effect-in-audio-library/page5), were made, and the PSRAM tested as a direct replacement for the 23LC1024 in the audio external-delay module. But as the delayed audio had some distortion further changes were left for later. The files used are also available here as effect_delay_ext.h, effect_delay_ext.cpp, and PassThroughStereo3.ino
   
