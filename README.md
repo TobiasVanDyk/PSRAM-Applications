@@ -14,7 +14,7 @@ The separate PSRAM 8-pin DIP module was connected to a Teensy 4.1 (with another 
 Table 1: Connections between the external PSRAM module and a Teensy 4.1: 
 
 | PSRAM  | Teensy 4.1 | 
-|:-------|:-----==----|
+|:-------|:-----------|
 | 1      | 6          |
 | 2      | 12         | 
 | 3  NC  |	     	    | 
