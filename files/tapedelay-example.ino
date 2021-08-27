@@ -1,3 +1,5 @@
+// Refer to: https://forum.pjrc.com/threads/62739-Audio-Effect-Delay-Pops-amp-Clicks-when-changing-tap-times
+
 #include <Audio.h>
 #include <SD.h>
 #include <SPI.h>
