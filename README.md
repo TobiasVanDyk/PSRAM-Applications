@@ -30,7 +30,7 @@ As an initial check the 8MB-PSRAM module was tested with the direct SPI read/wri
   
 As a second test the Teensy audio code changes as suggested [**here**](https://forum.pjrc.com/threads/29276-Limits-of-delay-effect-in-audio-library/page5), were made, and the PSRAM tested as a direct replacement for the 23LC1024 in the audio external-delay module. But as the delayed audio had significant audible distortion,  any further examination were postponed. *The files used are available here as effect_delay_ext.h, effect_delay_ext.cpp, and PassThroughStereo3.ino.*
   
-As a third test the PSRAM connected to the bottom of the Teensy 4.1 was tested as an audio delay storage device as suggested here: [**Audio Effect Delay Pops & Clicks when changing tap times**](https://forum.pjrc.com/threads/62739-Audio-Effect-Delay-Pops-amp-Clicks-when-changing-tap-times). *The files used are available here as effect_tapedelay10tap.h, effect_tapedelay10tap.cpp, and tapedelay-example.ino.*
+As a third test the PSRAM connected to the bottom of the Teensy 4.1 was tested as an audio delay storage device as suggested here: [**Audio Effect Delay Pops & Clicks when changing tap times**](https://forum.pjrc.com/threads/62739-Audio-Effect-Delay-Pops-amp-Clicks-when-changing-tap-times). *The files used are available here as effect_tapedelay10tap.h, effect_tapedelay10tap.cpp, and tapedelay-example.ino.* To compile, keep all three files in the same folder named tapedelay-example.
   
 As this third approach worked very well, with no audible distortion and capable of exceptionally long delays, it will be investigated further.
 
