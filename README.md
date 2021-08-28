@@ -25,6 +25,12 @@ Table 1: Connections between the external PSRAM module and a Teensy 4.1:
 | 7      | 3v3        | 
 | 8      | 3v3        | 
   
+Picture 4. Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B.
+  
+<p align="left">
+<img src="images/setup-teensy41-audio3.jpg" width="550" />  
+<br>
+  
 As an initial check the 8MB-PSRAM module was tested with the direct SPI read/write code from here: [**Problem with 23LC1024 RAM memory - 31 August 2016**](https://forum.pjrc.com/threads/36563-Problem-with-23LC1024-RAM-memory). *The file used is also available here as 23LC1024a.ino.*
   
 After it was established that the PSRAM can be accessed (read/write) using the same code as for the 23LC1024 SRAM, the Teensy audio code changes as suggested [**here on 12 August 2021**](https://forum.pjrc.com/threads/29276-Limits-of-delay-effect-in-audio-library/page5), were made, where the PSRAM was tested as a direct replacement for the 23LC1024 in the audio external-delay module. But as the delayed audio had significant audible distortion,  any further examination were postponed. *The files used are available here as effect_delay_ext.h, effect_delay_ext.cpp, and PassThroughStereo3.ino.*
@@ -34,10 +40,6 @@ As a third test the PSRAM connected to the bottom of the Teensy 4.1 was tested a
   
 `As this third approach worked very well, with no audible distortion and capable of exceptionally long delays, it will be investigated further.`
 
-Picture 4. Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B.
-  
-<p align="left">
-<img src="images/setup-teensy41-audio3.jpg" width="550" />  
-<br>
+
   
 Note that all of this should be regarded as a work-in-progress, it is unfinished and documents infrequent experiments. **In addition the copyright of the various code sections and code files, belong to their owners, as identified by the links provided. Specifically, all [Teensy libraries](https://www.pjrc.com/teensy/) are the property of pjrc.com.**
