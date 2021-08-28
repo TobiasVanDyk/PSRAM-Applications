@@ -10,7 +10,7 @@ A number of 64Mb (8MB) [**AP Memory Technology APS6404L-3SQN QSPI PSRAM**](https
 <br>
   
 ### Method 1. External PSRAM module connected via Teensy SPI pins 6, 11, 12, and 13
-An external PSRAM 8-pin DIP module was connected to a Teensy 4.1 (with another PSRAM module soldered to its bottom), which in turn, was connected to a Teensy Audio 3 board rev B as shown in picture 4 below:
+An external PSRAM 8-pin DIP module was connected to a Teensy 4.1 (with another PSRAM module soldered to its bottom), which in turn, was connected to a Teensy Audio 3 board rev B (Note 1) as shown in picture 4 below:
   
 **Table 1.** Connections between the external PSRAM module and a Teensy 4.1: 
 
@@ -25,7 +25,7 @@ An external PSRAM 8-pin DIP module was connected to a Teensy 4.1 (with another P
 | 7      | 3v3        | 
 | 8      | 3v3        | 
   
-**Picture 4.** Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B.
+**Picture 4.** Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B (Note 1).
   
 <p align="left">
 <img src="images/setup-teensy41-audio3.jpg" width="550" />  
@@ -42,5 +42,6 @@ Using another approach the PSRAM connected to the bottom of the Teensy 4.1 was t
 
 Other similar posts which are suitable for PSRAM storage are: [**Realtime Audio Reversing - 8 Oct 2020**](https://forum.pjrc.com/threads/63608-Realtime-Audio-Reversing-is-it-possible-using-Teensy?p=255500&viewfull=1#post255500), and [**Multitrack looper - 28 July 2021**](https://forum.pjrc.com/threads/67816-Audio-project-guidance-multitrack-looper).
 
+Note 1: <img src="images/Teensy4-AudioBoard.jpg" width="16" height="16"/>To connect a Teensy 4.x to an (older) Audio board 3 please refer to [**Teensy 4.0 I2S Support - 14 Aug 2019**](https://forum.pjrc.com/threads/57167-Teensy-4-0-I2S-Support?p=212481%20-%20post212481).
   
 **Note that the copyright of the various code sections and code files, belong to their owners, as identified by the links provided. Specifically, all [Teensy libraries](https://www.pjrc.com/teensy/) are the property of pjrc.com.**
