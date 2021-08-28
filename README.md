@@ -31,14 +31,16 @@ Picture 4. Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teen
 <img src="images/setup-teensy41-audio3.jpg" width="550" />  
 <br>
   
-As an initial check the 8MB-PSRAM module was tested with the direct SPI read/write code from here: [**Problem with 23LC1024 RAM memory - 31 August 2016**](https://forum.pjrc.com/threads/36563-Problem-with-23LC1024-RAM-memory). *The file used is also available here as 23LC1024a.ino.*
+As an initial check the 8MB-PSRAM module was tested with the direct SPI read/write code from here: [**Problem with 23LC1024 RAM memory - 31 August 2016**](https://forum.pjrc.com/threads/36563-Problem-with-23LC1024-RAM-memory). *The file used is also available [**here**](/files) as 23LC1024a.ino.*
   
-After it was established that the PSRAM can be accessed (read/write) using the same code as for the 23LC1024 SRAM, the Teensy audio code changes as suggested [**here on 12 August 2021**](https://forum.pjrc.com/threads/29276-Limits-of-delay-effect-in-audio-library/page5), were made, where the PSRAM was tested as a direct replacement for the 23LC1024 in the audio external-delay module. But as the delayed audio had significant audible distortion,  any further examination were postponed. *The files used are available here as effect_delay_ext.h, effect_delay_ext.cpp, and PassThroughStereo3.ino.*
+After it was established that the PSRAM can be accessed (read/write) using the same code as for the 23LC1024 SRAM, the Teensy audio code changes as suggested [**here on 12 August 2021**](https://forum.pjrc.com/threads/29276-Limits-of-delay-effect-in-audio-library/page5), were made, where the PSRAM was tested as a direct replacement for the 23LC1024 in the audio external-delay module. But as the delayed audio had significant audible distortion,  any further examination were postponed. *The files used are available [**here**](/files) as effect_delay_ext.h, effect_delay_ext.cpp, and PassThroughStereo3.ino.*
   
 ### Method 2. PSRAM module directly connected to Teensy 4.1 bottom via QSPI 
-Another approach the PSRAM connected to the bottom of the Teensy 4.1 was tested as an audio delay storage array, as suggested here: [**Audio Effect Delay Pops & Clicks when changing tap times - 5 September 2020**](https://forum.pjrc.com/threads/62739-Audio-Effect-Delay-Pops-amp-Clicks-when-changing-tap-times). *The files used are available [**here**](/files) as effect_tapedelay10tap.h, effect_tapedelay10tap.cpp, and tapedelay-example.ino.* To compile, keep all three files in the same folder named tapedelay-example.
+Using another approach the PSRAM connected to the bottom of the Teensy 4.1 was tested as an audio delay storage array, as suggested here: [**Audio Effect Delay Pops & Clicks when changing tap times - 5 September 2020**](https://forum.pjrc.com/threads/62739-Audio-Effect-Delay-Pops-amp-Clicks-when-changing-tap-times). *The files used are available [**here**](/files) as effect_tapedelay10tap.h, effect_tapedelay10tap.cpp, and tapedelay-example.ino.* To compile, keep all three files in the same folder named tapedelay-example.
   
-`As this third approach worked very well, with no audible distortion and capable of exceptionally long delays, it will be investigated further.`
+`As this third approach worked very well, with no audible distortion and capable of exceptionally long delays, it will be investigated further.` 
+
+Other similar posts which are amenable to PSRAM storage are [**Realtime Audio Reversing - 8 Oct 2020**](https://forum.pjrc.com/threads/63608-Realtime-Audio-Reversing-is-it-possible-using-Teensy?p=255500&viewfull=1#post255500), and [** Multitrack looper - 28 July 2021**](https://forum.pjrc.com/threads/67816-Audio-project-guidance-multitrack-looper).
 
 
   
