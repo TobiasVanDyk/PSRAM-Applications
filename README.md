@@ -1,7 +1,7 @@
 # PSRAM-Applications
 A number of 64Mb (8MB) [**AP Memory Technology APS6404L-3SQN QSPI PSRAM**](https://www.mouser.com/ProductDetail/AP-Memory/APS6404L-3SQN-SN?qs=IS%252B4QmGtzzqCot9%252BeIJwKw%3D%3D) had been obtained from [**Mouser (Texas)**](https://www.mouser.com/), and are being tested through their single and quad SPI memory interface modes, for the latter using the RP2040 Pico (for which there is potential r/w QSPI support), and the established QSPI support for the Teensy 4.1 and ESP32's. 
 
-**Pictures 1 to 3** Two External PSRAM 8-pin DIP modules and a Teensy 4.1 with another PSRAM module soldered to its bottom.
+**Pictures 1 to 3.** Two External PSRAM 8-pin DIP modules and a Teensy 4.1 with another PSRAM module soldered to its bottom.
 
 <p align="left">
 <img src="images/AP-psram7.jpg" width="164" />  
@@ -9,10 +9,10 @@ A number of 64Mb (8MB) [**AP Memory Technology APS6404L-3SQN QSPI PSRAM**](https
 <img src="images/Teensy41-psram1.jpg" width="817" />  
 <br>
   
-### Method 1. External PSRAM module connected via Teensy SPI 
+### Method 1. External PSRAM module connected via Teensy SPI pins 6, 11, 12, and 13
 An external PSRAM 8-pin DIP module was connected to a Teensy 4.1 (with another PSRAM module soldered to its bottom), which in turn, was connected to a Teensy Audio 3 board rev B as shown in picture 4 below:
   
-**Table 1** Connections between the external PSRAM module and a Teensy 4.1: 
+**Table 1.** Connections between the external PSRAM module and a Teensy 4.1: 
 
 | PSRAM  | Teensy 4.1 | 
 |:-------|:-----------|
@@ -25,7 +25,7 @@ An external PSRAM 8-pin DIP module was connected to a Teensy 4.1 (with another P
 | 7      | 3v3        | 
 | 8      | 3v3        | 
   
-**Picture 4** Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B.
+**Picture 4.** Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B.
   
 <p align="left">
 <img src="images/setup-teensy41-audio3.jpg" width="550" />  
