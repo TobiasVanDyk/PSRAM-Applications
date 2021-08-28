@@ -4,9 +4,9 @@ A number of 64Mb (8MB) [**AP Memory Technology APS6404L-3SQN QSPI PSRAM**](https
 **Pictures 1 to 3.** Two External PSRAM 8-pin DIP modules and a Teensy 4.1 with another PSRAM module soldered to its bottom.
 
 <p align="left">
-<img src="images/AP-psram7.jpg" width="164" />  
-<img src="images/AP-psram8.jpg" width="650" /> 
-<img src="images/Teensy41-psram1.jpg" width="817" />  
+<img src="images/AP-psram7.jpg" width="82" />  
+<img src="images/AP-psram8.jpg" width="325" /> 
+<img src="images/Teensy41-psram1.jpg" width="409" />  
 <br>
   
 ### Method 1. External PSRAM module connected via Teensy SPI pins 6, 11, 12, and 13
@@ -28,7 +28,7 @@ An external PSRAM 8-pin DIP module was connected to a Teensy 4.1 (with another P
 **Picture 4.** Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B (Note 1).
   
 <p align="left">
-<img src="images/setup-teensy41-audio3.jpg" width="550" />  
+<img src="images/setup-teensy41-audio3.jpg" width="450" />  
 <br>
   
 As an initial check the 8MB-PSRAM module was tested with a modified version of the direct SPI read/write code from here: [**Problem with 23LC1024 RAM memory - 31 August 2016**](https://forum.pjrc.com/threads/36563-Problem-with-23LC1024-RAM-memory). *The modified file used is also available [**here**](/files) as 23LC1024a.ino.*
