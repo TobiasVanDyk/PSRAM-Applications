@@ -46,4 +46,4 @@ Note 1: <img src="images/Teensy4-AudioBoard.jpg" width="16" height="16"/>To conn
   
 Note 2: <img src="images/Teensy41-specialpins.jpg" width="16" height="16"/>The Teensy 4.1 use special QSPI pins (48,49,50,52,53,54) to connect to the PSRAM pads at its bottom.  
   
-**Note that the copyright of the various code sections and code files, belong to their owners, as identified by the links provided. Specifically, all [Teensy libraries](https://www.pjrc.com/teensy/) are the property of pjrc.com.**
+**Note that the copyright of the various code sections and code files, reside with their owners, as identified by the links provided. Specifically, all [Teensy libraries](https://www.pjrc.com/teensy/) are the property of pjrc.com.**
