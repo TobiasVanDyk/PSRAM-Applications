@@ -31,7 +31,7 @@ An external PSRAM 8-pin DIP module was connected to a Teensy 4.1 (with another P
 <img src="images/setup-teensy41-audio3.jpg" width="550" />  
 <br>
   
-As an initial check the 8MB-PSRAM module was tested with a modified direct SPI read/write code from here: [**Problem with 23LC1024 RAM memory - 31 August 2016**](https://forum.pjrc.com/threads/36563-Problem-with-23LC1024-RAM-memory). *The modified file used is also available [**here**](/files) as 23LC1024a.ino.*
+As an initial check the 8MB-PSRAM module was tested with a modified version of the direct SPI read/write code from here: [**Problem with 23LC1024 RAM memory - 31 August 2016**](https://forum.pjrc.com/threads/36563-Problem-with-23LC1024-RAM-memory). *The modified file used is also available [**here**](/files) as 23LC1024a.ino.*
   
 After it was established that the PSRAM can be accessed (read/write) using the same code as for the 23LC1024 SRAM, the Teensy audio code changes as suggested [**here on 12 August 2021**](https://forum.pjrc.com/threads/29276-Limits-of-delay-effect-in-audio-library/page5), were made, where the PSRAM was tested as a direct replacement for the 23LC1024 in the audio external-delay module. But as the delayed audio had significant audible distortion,  any further examination were postponed. *The files used are available [**here**](/files) as effect_delay_ext.h, effect_delay_ext.cpp, and PassThroughStereo3.ino.*
   
