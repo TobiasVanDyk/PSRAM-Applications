@@ -6,7 +6,7 @@ A number of 64Mb (8MB) [**AP Memory Technology APS6404L-3SQN QSPI PSRAM**](https
 <p align="left">
 <img src="images/AP-psram7.jpg" width="82" />  
 <img src="images/AP-psram8.jpg" width="325" /> 
-<img src="images/Teensy41-psram1.jpg" width="320" />  
+<img src="images/Teensy41-psram1.jpg" width="318" />  
 <br>
   
 ### Method 1. External PSRAM module connected via Teensy SPI pins 6, 11, 12, and 13
