@@ -43,4 +43,4 @@ Using another approach the PSRAM connected to the bottom of the Teensy 4.1 was t
 Other similar posts which are suitable for PSRAM storage are: [**Realtime Audio Reversing - 8 Oct 2020**](https://forum.pjrc.com/threads/63608-Realtime-Audio-Reversing-is-it-possible-using-Teensy?p=255500&viewfull=1#post255500), and [**Multitrack looper - 28 July 2021**](https://forum.pjrc.com/threads/67816-Audio-project-guidance-multitrack-looper).
 
   
-Note that all of this should be regarded as a work-in-progress, it is unfinished and documents infrequent experiments. **In addition the copyright of the various code sections and code files, belong to their owners, as identified by the links provided. Specifically, all [Teensy libraries](https://www.pjrc.com/teensy/) are the property of pjrc.com.**
+**Note that the copyright of the various code sections and code files, belong to their owners, as identified by the links provided. Specifically, all [Teensy libraries](https://www.pjrc.com/teensy/) are the property of pjrc.com.**
