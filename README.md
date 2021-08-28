@@ -38,10 +38,9 @@ After it was established that the PSRAM can be accessed (read/write) using the s
 ### Method 2. PSRAM module directly connected to Teensy 4.1 bottom via QSPI 
 Using another approach the PSRAM connected to the bottom of the Teensy 4.1 was tested as an audio delay storage array, as suggested here: [**Audio Effect Delay Pops & Clicks when changing tap times - 5 September 2020**](https://forum.pjrc.com/threads/62739-Audio-Effect-Delay-Pops-amp-Clicks-when-changing-tap-times). *The files used are available [**here**](/files) as effect_tapedelay10tap.h, effect_tapedelay10tap.cpp, and tapedelay-example.ino.* To compile, keep all three files in the same folder named tapedelay-example.
   
-`As this third approach worked very well, with no audible distortion and capable of exceptionally long delays, it will be investigated further.` 
+`As this second approach worked very well, with no audible distortion and capable of exceptionally long delays, it will be investigated further.` 
 
 Other similar posts which are suitable for PSRAM storage are: [**Realtime Audio Reversing - 8 Oct 2020**](https://forum.pjrc.com/threads/63608-Realtime-Audio-Reversing-is-it-possible-using-Teensy?p=255500&viewfull=1#post255500), and [**Multitrack looper - 28 July 2021**](https://forum.pjrc.com/threads/67816-Audio-project-guidance-multitrack-looper).
-
 
   
 Note that all of this should be regarded as a work-in-progress, it is unfinished and documents infrequent experiments. **In addition the copyright of the various code sections and code files, belong to their owners, as identified by the links provided. Specifically, all [Teensy libraries](https://www.pjrc.com/teensy/) are the property of pjrc.com.**
