@@ -16,7 +16,7 @@ An external PSRAM 8-pin DIP module was connected to a <img src="images/Teensy41t
 
 | PSRAM        | Teensy 4.1 | 
 |:-------------|:-----------|
-| 1  /CE       | 6          |
+| 1  /CE       | 6  M-CS    |
 | 2  SO/SIO[1] | 12 MISO    | 
 | 3  SIO[2] NC |	     	    | 
 | 4  VSS       | GND        | 
