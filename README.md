@@ -14,16 +14,16 @@ An external PSRAM 8-pin DIP module was connected to a <img src="images/Teensy41t
   
 **Table 1.** Connections between the external PSRAM module and a Teensy 4.1: 
 
-| PSRAM  | Teensy 4.1 | 
-|:-------|:-----------|
-| 1      | 6          |
-| 2      | 12         | 
-| 3  NC  |	     	    | 
-| 4      | GND        | 
-| 5      | 11         | 
-| 6      | 13         |
-| 7      | 3v3        | 
-| 8      | 3v3        | 
+| PSRAM        | Teensy 4.1 | 
+|:-------------|:-----------|
+| 1  /CE       | 6          |
+| 2  SO/SIO[1] | 12 MISO    | 
+| 3  SIO[2] NC |	     	    | 
+| 4  VSS       | GND        | 
+| 5  SI/SIO[0] | 11 MOSI    | 
+| 6  SCLK      | 13 SCLK    |
+| 7  SIO[3]    | 3v3        | 
+| 8  VDD       | 3v3        | 
   
 **Picture 4.** Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM module soldered to its bottom) connected to a Teensy Audio 3 board revision B (Note 1).
   
@@ -46,8 +46,8 @@ Other similar posts which are aimed at Teensy audio library objects suitable for
 * [**Realtime Audio Reversing - 8 Oct 2020**](https://forum.pjrc.com/threads/63608-Realtime-Audio-Reversing-is-it-possible-using-Teensy?p=255500&viewfull=1#post255500) 
 * [**Multitrack looper - 28 July 2021**](https://forum.pjrc.com/threads/67816-Audio-project-guidance-multitrack-looper)
 
-Note 1: <img src="images/Teensy4-AudioBoard.jpg" width="16" height="16"/>To connect a Teensy 4.x to an (older) Audio board 3 please refer to [**Teensy 4.0 I2S Support - 14 Aug 2019**](https://forum.pjrc.com/threads/57167-Teensy-4-0-I2S-Support?p=212481%20-%20post212481).
+<img src="images/Teensy4-AudioBoard.jpg" width="16" height="16"/>Note 1: To connect a Teensy 4.x to an (older) Audio board 3 please refer to [**Teensy 4.0 I2S Support - 14 Aug 2019**](https://forum.pjrc.com/threads/57167-Teensy-4-0-I2S-Support?p=212481%20-%20post212481).
   
-Note 2: <img src="images/Teensy41-specialpins.jpg" width="16" height="16"/>The Teensy 4.1 use special QSPI pins (48,49,50,52,53,54) to connect to the PSRAM pads at its bottom.  
+<img src="images/Teensy41-specialpins.jpg" width="16" height="16"/>Note 2: The Teensy 4.1 use special QSPI pins (48,49,50,52,53,54) to connect to the PSRAM pads at its bottom.  
   
-**Note that the copyright of the various code sections and code files, reside with their owners, as identified by the links provided. Specifically, all [Teensy libraries](https://www.pjrc.com/teensy/) are the property of pjrc.com.**
+**Important: The copyright of the various code sections and code files, reside with their owners, as identified by the links provided. Specifically, all [Teensy libraries](https://www.pjrc.com/teensy/) are the property of pjrc.com.**
