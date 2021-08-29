@@ -41,8 +41,9 @@ Using another approach the PSRAM connected to the <img src="images/Teensy41-spec
 `As this second approach worked very well, with no audible distortion and capable of exceptionally long delays, it will be investigated further.` 
 
 Other similar posts which are aimed at Teensy audio library objects suitable for PSRAM storage are: 
+  
 * [**How to read an EXTMEM array within an audio object**](https://forum.pjrc.com/threads/62491-How-to-read-an-EXTMEM-array-within-an-audio-object?p=252844&viewfull=1#post252844)
-* [**Realtime Audio Reversing - 8 Oct 2020**](https://forum.pjrc.com/threads/63608-Realtime-Audio-Reversing-is-it-possible-using-Teensy?p=255500&viewfull=1#post255500), * [**Multitrack looper - 28 July 2021**](https://forum.pjrc.com/threads/67816-Audio-project-guidance-multitrack-looper).
+* [**Realtime Audio Reversing - 8 Oct 2020**](https://forum.pjrc.com/threads/63608-Realtime-Audio-Reversing-is-it-possible-using-Teensy?p=255500&viewfull=1#post255500) * * [**Multitrack looper - 28 July 2021**](https://forum.pjrc.com/threads/67816-Audio-project-guidance-multitrack-looper)
 
 Note 1: <img src="images/Teensy4-AudioBoard.jpg" width="16" height="16"/>To connect a Teensy 4.x to an (older) Audio board 3 please refer to [**Teensy 4.0 I2S Support - 14 Aug 2019**](https://forum.pjrc.com/threads/57167-Teensy-4-0-I2S-Support?p=212481%20-%20post212481).
   
