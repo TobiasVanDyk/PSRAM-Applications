@@ -8,7 +8,7 @@
 <img src="images/Teensy41-psram1.jpg" width="316" />  
 <br>
   
-### Method 1. External PSRAM module connected via Teensy SPI pins 6, 11, 12, and 13
+### Method 1. External PSRAM module connected via Teensy SPI pins 10(6), 11, 12, and 13
 An external PSRAM 8-pin DIP module was connected to a <img src="images/Teensy41toppins.jpg" width="16" height="16"/>Teensy 4.1 with another PSRAM module soldered to its bottom (Note 2), which in turn, was connected to a Teensy Audio 3 board rev B (Note 1) as shown in picture 3 below:
   
 **Table 1.** Connections between the external PSRAM module and a Teensy 4.1: 
