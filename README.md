@@ -9,7 +9,7 @@
 <br>
   
 ### Method 1. External PSRAM module connected via Teensy SPI0
-An external PSRAM 8-pin DIP module was connected to a <img src="images/Teensy41toppins.jpg" width="16" height="16"/>Teensy 4.1 with another PSRAM IC soldered to its bottom (Note 2), which in turn, was connected to a Teensy Audio 3 board rev B (Note 1) as shown in picture 3 below:
+An external PSRAM 8-pin DIP module was connected to a <img src="images/Teensy41toppins.jpg" width="16" height="16"/> Teensy 4.1 with another PSRAM IC soldered to its bottom (Note 2), which in turn, was connected to a Teensy Audio 3 board rev B (Note 1) as shown in picture 3 below:
   
 **Table 1.** Connections between the external PSRAM module and a Teensy 4.1 (SPI0): 
 
@@ -37,7 +37,7 @@ As an initial check the 8MB-PSRAM module was tested with a modified version of t
 After it was established that the PSRAM can be accessed (read/write) using the same code as for the 23LC1024 SRAM, the Teensy audio code changes as suggested [**here on 12 August 2021**](https://forum.pjrc.com/threads/29276-Limits-of-delay-effect-in-audio-library/page5), were made, where the PSRAM was tested as a direct replacement for the 23LC1024 in the audio external-delay module. But as both the direct and the delayed audio had significant audible distortion with no obvious easy solution,  any further examination were postponed - a possible reason could be gain overload (tried to lower gain of both wet and dry signals via an amplifier), or the two different handlers for the PSRAM that are active at the same time. *The files used are available [**here**](/files) as effect_delay_ext.h, effect_delay_ext.cpp, and PassThroughStereo4.ino.*
   
 ### Method 2. PSRAM IC directly connected to Teensy 4.1 bottom via QSPI
-<img src="images/tapedelay-orginal.jpg" width="16" height="16"/> Using another approach the PSRAM connected to the <img src="images/Teensy41-specialpins.jpg" width="16" height="16"/>bottom of the [**Teensy 4.1**](https://www.pjrc.com/store/teensy41.html) (Note 2), was used as an audio-delay-storage array in the memory-mapped PSRAM, as described here: [**Audio Effect Delay Pops & Clicks when changing tap times - 5 September 2020**](https://forum.pjrc.com/threads/62739-Audio-Effect-Delay-Pops-amp-Clicks-when-changing-tap-times). *The files used are available [**here**](/files) as effect_tapedelay10tap.h, effect_tapedelay10tap.cpp, tapedelay-example.ino (PSRAM version), and tapedelay-orginal.ino (normal version).* To compile, keep all three files in the same folder named tapedelay-example.
+<img src="images/tapedelay-orginal.jpg" width="16" height="16"/> Using another approach the PSRAM connected to the <img src="images/Teensy41-specialpins.jpg" width="16" height="16"/> bottom of the [**Teensy 4.1**](https://www.pjrc.com/store/teensy41.html) (Note 2), was used as an audio-delay-storage array in the memory-mapped PSRAM, as described here: [**Audio Effect Delay Pops & Clicks when changing tap times - 5 September 2020**](https://forum.pjrc.com/threads/62739-Audio-Effect-Delay-Pops-amp-Clicks-when-changing-tap-times). *The files used are available [**here**](/files) as effect_tapedelay10tap.h, effect_tapedelay10tap.cpp, tapedelay-example.ino (PSRAM version), and tapedelay-orginal.ino (normal version).* To compile, keep all three files in the same folder named tapedelay-example.
   
 `As this second approach worked very well, with no audible distortion and capable of exceptionally long delays, it will be investigated further.` 
 
