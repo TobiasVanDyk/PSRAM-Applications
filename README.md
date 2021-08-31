@@ -24,7 +24,7 @@ An external PSRAM 8-pin DIP module was connected to a <img src="images/Teensy41t
 | 7  SIO[3]    | 3v3         | 
 | 8  VDD       | 3v3         | 
   
-Note: CS pin 6 is used for the Flash and SRAM mounted directly on the Audioboard bottom pads.
+Note: CS pin 6 is used for the Flash and SRAM mounted directly on the Audio board 3 and 4, bottom pads.
   
 **Picture 3.** Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM IC soldered to its bottom) connected to a Teensy Audio 3 board revision B (Note 1).
   
