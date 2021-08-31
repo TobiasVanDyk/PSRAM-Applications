@@ -8,14 +8,14 @@
 <img src="images/Teensy41-psram1.jpg" width="316" />  
 <br>
   
-### Method 1. External PSRAM module connected via Teensy SPI pins 10(6), 11, 12, and 13
+### Method 1. External PSRAM module connected via Teensy SPI0
 An external PSRAM 8-pin DIP module was connected to a <img src="images/Teensy41toppins.jpg" width="16" height="16"/>Teensy 4.1 with another PSRAM IC soldered to its bottom (Note 2), which in turn, was connected to a Teensy Audio 3 board rev B (Note 1) as shown in picture 3 below:
   
-**Table 1.** Connections between the external PSRAM module and a Teensy 4.1: 
+**Table 1.** Connections between the external PSRAM module and a Teensy 4.1 (SPI0): 
 
 | PSRAM        | Teensy 4.1  | 
 |:-------------|:------------|
-| 1  /CE       | 10 or 6  CS |
+| 1  /CE       | 10 CS       |
 | 2  SO/SIO[1] | 12 MISO     | 
 | 3  SIO[2] NC |	     	     | 
 | 4  VSS       | GND         | 
@@ -23,6 +23,8 @@ An external PSRAM 8-pin DIP module was connected to a <img src="images/Teensy41t
 | 6  SCLK      | 13 SCLK     |
 | 7  SIO[3]    | 3v3         | 
 | 8  VDD       | 3v3         | 
+  
+Note: CS pin 6 is used for the Flash and SRAM on the Audioboard
   
 **Picture 3.** Two External PSRAM 8-pin DIP modules, a socketed 23LC1024, and a Teensy 4.1 (with another PSRAM IC soldered to its bottom) connected to a Teensy Audio 3 board revision B (Note 1).
   
