@@ -53,6 +53,8 @@ Other similar posts which are aimed at **Teensy audio library objects suitable f
 * [**Realtime Audio Reversing - 8 Oct 2020**](https://forum.pjrc.com/threads/63608-Realtime-Audio-Reversing-is-it-possible-using-Teensy?p=255500&viewfull=1#post255500) 
 * [**Multitrack looper - 28 July 2021**](https://forum.pjrc.com/threads/67816-Audio-project-guidance-multitrack-looper)
 * [**MemFile - 29 Aug 2021 - WIP**](https://forum.pjrc.com/threads/68071-memFile) 
+* [**Improved AudioEffectDelayExternal - Apr 2022**](https://github.com/PaulStoffregen/Audio/pull/433) 
+* [**Doing a 486SLC homebrew - Apr 2023**](https://forum.pjrc.com/threads/72560-Doing-a-486SLC-homebrew)
 
 <img src="images/Teensy4-AudioBoard.jpg" width="16" height="16"/> Note 1: To connect a Teensy 4.x to an (older) Audio board 3 please refer to [**Teensy 4.0 I2S Support - 14 Aug 2019**](https://forum.pjrc.com/threads/57167-Teensy-4-0-I2S-Support?p=212481%20-%20post212481).
   
